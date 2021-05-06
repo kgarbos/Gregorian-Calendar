@@ -1,0 +1,111 @@
+{
+	"2019":{
+		"1": {"1": "New Year" },
+		"2": {"18": "Family Day"},
+		"4": {"19": "Good Friday", "22": "Easter"},
+		"5": {"20": "Victoria Day"},
+		"7": {"1": "Canada Day"},
+		"8": {"5": "Civic Holiday"},
+		"9": {"2": "Labour Day"},
+		"10": {"14": "Thanksgiving"},
+		"11": {"11": "Remembrance Day"},
+		"12": {"25": "Christmas Day", "26": "Boxing Day"}
+	},
+	
+	"2020": {
+		"1": {"1": "New Year" },
+		"2": {"17": "Family Day"},
+		"4": {"10": "Good Friday", "13": "Easter"},
+		"5": {"18": "Victoria Day"},
+		"7": {"1": "Canada Day"},
+		"8": {"3": "Civic Holiday"},
+		"9": {"7": "Labour Day"},
+		"10": {"12": "Thanksgiving"},
+		"11": {"11": "Remembrance Day"},
+		"12": {"25": "Christmas Day", "26": "Boxing Day"}
+	},
+
+	"2021": {
+		"1": {"1" : "New Year"},
+		"2": {"15": "Family Day"},
+		"4": {"2" : "Good Friday", "5": "Easter"},
+		"5": {"24": "Victoria Day"},
+		"7": {"1": "Canada Day"},
+		"8": {"2": "Civic Holiday"},
+		"9": {"6": "Labour Day"},
+		"10": {"11":"Remembrance Day"},
+		"12": {"25":"Christmas Day", "26": "Boxing Day"}
+	},
+
+	"2022": {
+		"1": {"1" : "New Year"},
+		"2": {"15": "Family Day"},
+		"4": {"2" : "Good Friday", "5": "Easter"},
+		"5": {"24": "Victoria Day"},
+		"7": {"1": "Canada Day"},
+		"8": {"2": "Civic Holiday"},
+		"9": {"6": "Labour Day"},
+		"10": {"11":"Remembrance Day"},
+		"12": {"25":"Christmas Day", "26": "Boxing Day"}
+	},
+
+	"2023": {
+		"1": {"1" : "New Year"},
+		"2": {"15": "Family Day"},
+		"4": {"2" : "Good Friday", "5": "Easter"},
+		"5": {"24": "Victoria Day"},
+		"7": {"1": "Canada Day"},
+		"8": {"2": "Civic Holiday"},
+		"9": {"6": "Labour Day"},
+		"10": {"11":"Remembrance Day"},
+		"12": {"25":"Christmas Day", "26": "Boxing Day"}
+	},
+
+	"2024": {
+		"1": {"1" : "New Year"},
+		"2": {"15": "Family Day"},
+		"4": {"2" : "Good Friday", "5": "Easter"},
+		"5": {"24": "Victoria Day"},
+		"7": {"1": "Canada Day"},
+		"8": {"2": "Civic Holiday"},
+		"9": {"6": "Labour Day"},
+		"10": {"11":"Remembrance Day"},
+		"12": {"25":"Christmas Day", "26": "Boxing Day"}
+	},
+
+	"2025": {
+		"1": {"1" : "New Year"},
+		"2": {"15": "Family Day"},
+		"4": {"2" : "Good Friday", "5": "Easter"},
+		"5": {"24": "Victoria Day"},
+		"7": {"1": "Canada Day"},
+		"8": {"2": "Civic Holiday"},
+		"9": {"6": "Labour Day"},
+		"10": {"11":"Remembrance Day"},
+		"12": {"25":"Christmas Day", "26": "Boxing Day"}
+	},
+
+	"2026": {
+		"1": {"1" : "New Year"},
+		"2": {"15": "Family Day"},
+		"4": {"2" : "Good Friday", "5": "Easter"},
+		"5": {"24": "Victoria Day"},
+		"7": {"1": "Canada Day"},
+		"8": {"2": "Civic Holiday"},
+		"9": {"6": "Labour Day"},
+		"10": {"11":"Remembrance Day"},
+		"12": {"25":"Christmas Day", "26": "Boxing Day"}
+	},
+
+	"2027": {
+		"1": {"1" : "New Year"},
+		"2": {"15": "Family Day"},
+		"4": {"2" : "Good Friday", "5": "Easter"},
+		"5": {"24": "Victoria Day"},
+		"7": {"1": "Canada Day"},
+		"8": {"2": "Civic Holiday"},
+		"9": {"6": "Labour Day"},
+		"10": {"11":"Remembrance Day"},
+		"12": {"25":"Christmas Day", "26": "Boxing Day"}
+	}
+}

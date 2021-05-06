@@ -1,0 +1,108 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*Main div*/
+#cal_block {
+	margin: 10px;
+}
+
+#cal_mon_center {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	text-align: center;
+}
+
+/* month and year block */
+#cal_mon {
+	text-align: center;
+	font-size: calc(1em + 1.5vw);
+}
+
+/* previous and next buttons */
+#prev, #next {
+	text-align: center;
+	font-size: calc(0.3em + 1.5vw);
+	background-color: #4c934c;
+	border: none;
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+	margin: 0 5vw;
+	cursor: pointer;
+}
+
+/* weekday grid block */
+#cal_day {
+	display: grid;
+	gap: 10px;
+	grid-template-columns: repeat(7, 1fr);
+	font-size: calc(1em + 1.3vw);
+	margin: 5px 0;
+	padding: 3px;
+}
+
+/* weekday items */
+#cal_day > div {
+	overflow: hidden;
+	text-align: center;
+	background: #19381f;
+	color: white;
+}
+
+/* date grid block */
+#cal_dat {
+	display: grid;
+	gap: 10px;
+	grid-template-columns: repeat(7, 1fr);
+	font-size: calc(1em + 1.0vw);
+	text-align: center;
+}
+
+/* individual date items */
+#cal_dat > div {
+	min-height: 50px;
+	max-height: 150px;
+	height: 5vw;
+	font-size: calc(0.3em + 1.0vw);
+	padding: 0.2em;
+}
+
+/* date items of the current month */
+.cal_cmd {
+	background-color: #7bdff2;
+}
+
+/* today date item */
+.cal_today {
+	background-color: #fcb07e;
+}
+
+/* holiday date item */
+.cal_holiday {
+	background-color: #eee82c;
+}
+
+/* date items of prev/next month */
+.cal_pmd, .cal_nmd {
+	background-color: #b2f7ef;
+}
+
+.cal_min {
+	display: none;
+}
+
+/* MOBILE VIEW */
+@media screen and (max-width: 880px) {
+	.cal_min {
+		display: inline-block;
+	}
+
+	.cal_full {
+		display: none;
+	}
+
+}

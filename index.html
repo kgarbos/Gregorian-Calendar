@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Calendar</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="js/Calendar.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+
+  <body>
+    <div id="cal_block">
+      <!--Month and Year Block-->
+      <div id="cal_mon">
+        <div id="cal_mon_center">
+          <button id="prev" onclick="previous()">Previous</button>
+          <div id="cal_mon_name">Month</div>
+          <button id="next" onclick="next()">Next</button>
+        </div>
+      </div>
+
+      <div id="cal_day">
+        <div id="cal_day_su"><span class="cal_full">Sunday</span></div>
+        <div id="cal_day_mo"><span class="cal_full">Monday</span></div>
+        <div id="cal_day_tu"><span class="cal_full">Tuesday</span></div>
+        <div id="cal_day_we"><span class="cal_full">Wednesday</span></div>
+        <div id="cal_day_th"><span class="cal_full">Thursday</span></div>
+        <div id="cal_day_fr"><span class="cal_full">Friday</span></div>
+        <div id="cal_day_sa"><span class="cal_full">Saturday</span></div>
+
+        <div id="cal_day_su"><span class="cal_min">SUN</span></div>
+        <div id="cal_day_mo"><span class="cal_min">MON</span></div>
+        <div id="cal_day_tu"><span class="cal_min">TUE</span></div>
+        <div id="cal_day_we"><span class="cal_min">WED</span></div>
+        <div id="cal_day_th"><span class="cal_min">THU</span></div>
+        <div id="cal_day_fr"><span class="cal_min">FRI</span></div>
+        <div id="cal_day_sa"><span class="cal_min">SAT</span></div>
+      </div>
+
+      <!--Date data loaded with Javascript & JSON-->
+      <div id="cal_dat"></div>
+    </div>
+  </body>
+</html>
